@@ -1,0 +1,36 @@
+{
+    "expo": {
+        "name": "Food Delivery",
+        "slug": "fooddelivery",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/images/favicon.png",
+        "userInterfaceStyle": "automatic",
+        "splash": {
+            "image": "./assets/images/splashimg.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#fff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout":0
+        },
+        "assetBundlePatterns": [
+           "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true,
+            "userInterfaceStyle": "automatic"
+        },
+        "android": {
+            "package": "tothepointocde.fooddeliveryapp",
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/images/start.png",
+                "backgroundColor": "#fff"
+            },
+            "userInterfaceStyle": "automatic"
+        },
+        "web": {
+            "favicon": "./assets/images/start.png"
+        }
+    }
+}
